@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dandyBioSim:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dandyBioSim_jar</output-path>
+    <root id="archive" name="dandyBioSim.jar">
+      <element id="module-output" name="dandyBioSim" />
+    </root>
+  </artifact>
+</component>
