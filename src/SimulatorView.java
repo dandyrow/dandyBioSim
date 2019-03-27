@@ -321,12 +321,14 @@ public class SimulatorView extends JFrame implements ActionListener
         JButton quit = new JButton("Quit");
         quit.addActionListener( e -> { dispose(); System.exit(0);} );
 
-        JPanel controls = new JPanel(new GridLayout(10,1));
-        controls.add(start);
-        controls.add(stop);
-        controls.add(step);
-        controls.add(reset);
-        controls.add(quit);
+        JPanel controls = new JPanel();
+        JPanel controls2 = new JPanel(new GridLayout(10,1));
+        controls2.add(start);
+        controls2.add(stop);
+        controls2.add(step);
+        controls2.add(reset);
+        controls2.add(quit);
+        controls.add(controls2);
 
         JPanel view = new JPanel(new BorderLayout());
         view.add(stepLabel, BorderLayout.NORTH);
